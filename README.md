@@ -16,7 +16,7 @@ Project to demonstrate basic knowledge of HTML and CSS concepts like:
 <li>Alignment</li>
 </ul>
 
-Project URL: <a href="https://faozio.github.io/landing-page/">Odin Recipes</a>
+Project URL: <a href="https://faozio.github.io/landing-page/">Landing Page</a>
 
 Credits: 
 <ul>
