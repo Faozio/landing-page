@@ -21,18 +21,33 @@ body {
     margin-right: auto;
 }
 ul {
-    gap: 8px;
+    gap: 16px;
     margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
 }
 a {
-    font-size: 22px;
-    padding: 8px;
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
   }
-  
+.one .child12 {
+    display: flex;
+    color: #E5E7EB;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    gap: 56px; 
+}  
+.logo-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: extra-expanded;
+}
 .one .child11 { 
     display: flex;
     align-items: center;
@@ -41,6 +56,12 @@ a {
     margin: 32px;
     flex-grow: 0;
 }
+.one .child12 .child122 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-around;
+  }
 .child11 .child111 {
     flex-basis: 400px;
     display: flex;
@@ -64,6 +85,12 @@ a {
 .content-one {
     font-size: 18px;
     color: #e5e7eb;
+}
+.text {
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+    font-weight: lighter;
 }
 button {
     display: block;
@@ -97,6 +124,9 @@ button {
   }
 .child21 {
     max-width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 .dog-image {
     width: 200px;
@@ -129,4 +159,34 @@ button {
     padding-bottom: 20px;
     padding-right: 10px;
     font-family: 'Roboto', arial;
+}
+.four {
+    display: flex;
+    flex-shrink: 3;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 80px;
+    padding: 80px;
+    color: white;
+
+}
+.four .child42 {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    max-height: 75px;
+}
+.four .child41 {
+    font-size: 36px;
+}
+.footer {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
